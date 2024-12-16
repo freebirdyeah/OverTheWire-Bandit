@@ -1,4 +1,4 @@
-# Level 0
+# Level 0 --> 1
 
 The instructions tell us to `ssh` to  `bandit.labs.overthewire.org`, on port `2220` with the username and password both as `bandit0`
 
@@ -90,6 +90,20 @@ discord or IRC.
   Enjoy your stay!
 ```
 
-I run `mktemp -d` to get my own working directory in the `/tmp` dir and I'm done with level 0.
+I run `mktemp -d` to get my own working directory in the `/tmp` dir and I look up Level 0-1 which says "The password for the next level is stored in a file called readme located in the home directory."
 
+I run `ls` and see a file `readme`, and on `~$ cat readme` I get:-
+
+
+```
+Congratulations on your first steps into the bandit game!!
+Please make sure you have read the rules at https://overthewire.org/rules/
+If you are following a course, workshop, walkthrough or other educational activity,
+please inform the instructor about the rules as well and encourage them to
+contribute to the OverTheWire community so we can keep these games free!
+
+The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+```
+
+Got the password to go to level-1, now moving on.
 
